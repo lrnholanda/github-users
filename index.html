@@ -4,10 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Github Users Information</title>
 </head>
 <body>
+    <div class="search-bar">
+        <input id="busca" type="text" placeholder="Search for github profiles...">
+        <button class="btn" id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+
+    <div class="container">
+        <div class="content-info" id="content-info">
+            <img src="user01.svg" alt="">
+            <div class="text-info">
+                <h3 class="name">Shirley C. Ouzts</h3>
+                <span class="username">@shirleyteach</span>
+                <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, molestias.</p> 
+                <div class="sub-info">
+                    <span class="company"><i class="fa-solid fa-building"></i> Google</span>
+                    <span class="location"><i class="fa-sharp fa-solid fa-location-dot"></i> Caxias - Brazil</span>
+                    <span class="followers"><i class="fa-solid fa-users"></i> 2000</span>
+                </div>     
+            </div>
+        </div>
+    </div>
  
     <script src="script.js"></script>
 </body>

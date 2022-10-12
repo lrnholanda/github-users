@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
 
 * {
     margin: 0;
@@ -10,6 +11,13 @@ body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #fff;
+    background-color: #1E1D2F;
   }
 
   img, picture, video, canvas, svg {
@@ -20,3 +28,79 @@ body {
   input, button, textarea, select {
     font: inherit;
   }  
+
+.search-bar {
+    margin-bottom: 4rem;
+    color: #bec3c9;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+input {
+    border: none;
+    padding: .5rem;
+    color: inherit;
+    width: 100%;
+    border-radius:.5rem;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.btn {
+    padding: .5rem;
+    border: none;
+    border-radius:.5rem;
+    background-color: #8F5AFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 6px solid #1E1D2F;
+    border-radius: 50%;
+}
+
+.container {
+    background-color: #2D2C43;
+    border-radius: 20px;
+    padding: 2rem;
+    width: 680px;
+}
+
+.content-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.bio {
+    max-width: 400px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.name {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: .3rem;
+}
+
+span {
+    font-weight: 200;
+}
+
+.sub-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
